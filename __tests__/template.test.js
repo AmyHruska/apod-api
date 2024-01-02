@@ -8,7 +8,7 @@ describe('template', () => {
   });
 
   test('', () => {    
-
+    expect(tempObj.value).toEqual(null);
   });
 
 });
